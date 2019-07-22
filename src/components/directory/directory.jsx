@@ -14,7 +14,7 @@ class Directory extends React.Component {
           title: "New Arrivals",
           imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
           id: 1,
-          linkUrl: "shop/hats"
+          linkUrl: "new-arrival"
         },
         {
           title: "Summer 19'",
@@ -49,8 +49,8 @@ class Directory extends React.Component {
   render() {
     return (
       <div className="directory-menu">
-        {this.state.sections.map(({ title, imageUrl, id, size }) => (
-          <MenuItem key={id} title={title} imageUrl={imageUrl} size={size} />
+        {this.state.sections.map(({ id, ...SectionProps }) => (
+          <MenuItem key={id} {...SectionProps} />
         ))}
       </div>
     );
