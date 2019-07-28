@@ -6,7 +6,7 @@ const INTIAL_STATE = {
       title: "New Arrivals",
       imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
       id: 1,
-      linkUrl: "shop/new-arrival"
+      linkUrl: "shop/hats"
     },
     {
       title: "Summer 19'",
@@ -21,8 +21,8 @@ const INTIAL_STATE = {
       linkUrl: "shop/sneakers"
     },
     {
-      title: "womens",
-      imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+      title: "Womens",
+      imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
       size: "large",
       id: 4,
       linkUrl: "shop/womens"
