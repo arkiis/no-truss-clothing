@@ -1,5 +1,3 @@
-import { Action } from "rxjs/internal/scheduler/Action";
-
 const INTIAL_STATE = {
   sections: [
     {
@@ -22,7 +20,7 @@ const INTIAL_STATE = {
     },
     {
       title: "Womens",
-      imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
+      imageUrl: "",
       size: "large",
       id: 4,
       linkUrl: "shop/womens"
