@@ -20,7 +20,7 @@ const INTIAL_STATE = {
     },
     {
       title: "Womens",
-      imageUrl: "",
+      imageUrl: "../../assets/images/womens-menu.jpg",
       size: "large",
       id: 4,
       linkUrl: "shop/womens"
