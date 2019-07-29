@@ -1,4 +1,6 @@
 import React from "react";
+import styled from "styled-components";
+
 import { connect } from "react-redux";
 import { setCurrentUser } from "./redux/user/user.actions";
 import { Switch, Route, Redirect } from "react-router-dom";
