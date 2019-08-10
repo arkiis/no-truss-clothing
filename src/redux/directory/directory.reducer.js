@@ -1,4 +1,4 @@
-const INTIAL_STATE = {
+const INITIAL_STATE = {
   sections: [
     {
       title: "New Arrivals",
@@ -24,11 +24,19 @@ const INTIAL_STATE = {
       size: "large",
       id: 4,
       linkUrl: "shop/womens"
+    },
+    {
+      title: "Mens",
+      imageUrl:
+        "https://cdn.shopify.com/s/files/1/2447/5525/files/SU19-KAPPA-MAINLINE-EDITORIAL_17-_3_300x.jpg?v=1560451029",
+      size: "large",
+      id: 5,
+      linkUrl: "shop/mens"
     }
   ]
 };
 
-const directoryReducer = (state = INTIAL_STATE, action) => {
+const directoryReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     default:
       return state;

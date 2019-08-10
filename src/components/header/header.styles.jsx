@@ -24,9 +24,10 @@ export const OptionsContainer = styled.div`
 `;
 
 export const OptionLink = styled(Link)`
-  ${OptionsContainerStyles}
+  padding: 10px 15px;
+  cursor: pointer;
 `;
 
-export const OptionDiv = styled.div`
-  ${OptionContainerStyles}
+export const ImgContainer = styled.img`
+  width: 100px;
 `;
